@@ -22,3 +22,8 @@ Para llevar a cabo las reparaciones por encargo de los celulares, se necesitará
 
 ### termina Compra de suministros y herramientas:
 Para llevar el registro de las herramientas y suministros disponibles en la empresa, se mantiene una base de datos con la información correspondiente a cada uno de ellos. Se registra el nombre del insumo, su código único, la cantidad disponible, el costo de adquisición, el estado actual (buen estado, dañado), la descripción y la categoría a la que pertenece. La categorización de los insumos es realizada a criterio de la empresa y puede incluir categorías como herramientas, pantallas, baterías, etc. En caso de que se presente algún problema con algún insumo, se deberá registrar el incidente en la base de datos, indicando el nombre del insumo afectado, la fecha y el tipo de incidente (robo, daño, pérdida, etc.). De esta manera, se puede llevar un control preciso de los insumos disponibles en la empresa y evitar posibles faltantes o pérdidas.
+
+
+Enlace al Diagrama de Chen:
+https://drive.google.com/file/d/1XK_hh0UOw_XtBb0LU6E4now-j5no_e65/view?usp=sharig
+
