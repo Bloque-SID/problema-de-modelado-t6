@@ -1,7 +1,7 @@
 # Proyecto: Base de datos para empresa de reparación de celulares
 Este repositorio contiene el código fuente para una base de datos de una empresa ficticia de reparación de celulares llamada "Repara Todo". La base de datos está diseñada para almacenar información sobre reparaciones de celulares, compras de suministros y herramientas, y el inventario de trabajo en proceso o terminado.
 
-##Estudiantes
+## Estudiantes
 Nombre: Carlos Andres Tafurt
 Código: A00365131
 
