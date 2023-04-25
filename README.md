@@ -33,15 +33,15 @@ https://drive.google.com/file/d/1XK_hh0UOw_XtBb0LU6E4now-j5no_e65/view?usp=shari
 
 **Proceso de transformación de diagrama**  
 
-**Paso 0**: Se incluye la entidad secundaria "Reparación". El diagrama no presenta atributos compuestos o multievaluados.  
+**Paso 0**: Se incluye la entidad secundaria "Reparación" y la entidad secundaria "Membresía". El diagrama no presenta atributos compuestos o multievaluados.  
 
-**Paso 1**: Se crea una tabla en SQL por cada una de las entidades fuertes del diagrama: 
+**Paso 1**: Se crea una tabla por cada una de las entidades fuertes del diagrama: 
   - Suministro
   - Proveedor
   - Servicio
   - Cliente
   - Dispositivo
-**Paso 2**: Se crea una tabla en SQL por cada una de las entidades débiles:  
+**Paso 2**: Se crea una tabla por cada una de las entidades débiles:  
   - Membresía
   - Reparación
 
