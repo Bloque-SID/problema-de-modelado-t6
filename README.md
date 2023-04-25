@@ -28,3 +28,23 @@ Para llevar el registro de las herramientas y suministros disponibles en la empr
 Enlace al Diagrama de Chen:
 https://drive.google.com/file/d/1XK_hh0UOw_XtBb0LU6E4now-j5no_e65/view?usp=sharig
 
+![ReparaTodo - Grupo 6-Version 3 (Paso 0) drawio](https://user-images.githubusercontent.com/93087966/234304348-aa9a582a-bd93-49ac-b80b-122cd5c32f83.png)
+
+
+**Proceso de transformación de diagrama**  
+
+**Paso 0**: Se incluye la entidad secundaria "Reparación". El diagrama no presenta atributos compuestos o multievaluados.  
+
+**Paso 1**: Se crea una tabla en SQL por cada una de las entidades fuertes del diagrama: 
+  - Suministro
+  - Proveedor
+  - Servicio
+  - Cliente
+  - Dispositivo
+**Paso 2**: Se crea una tabla en SQL por cada una de las entidades débiles:  
+  - Membresía
+  - Reparación
+
+**Paso 3**: 
+
+  
