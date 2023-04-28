@@ -129,8 +129,7 @@ CREATE TABLE Proveedor (
   telefono VARCHAR(10)
 );
 
-
--- Inserts
+-- Inserts tabla Proveedor
 INSERT INTO Proveedor (nit, nombre, num_cuenta, direccion, ciudad, telefono) VALUES ('8001357442', 'TecnoSuministros', '99005672000563', 'Calle 28 #15-35', 'Bogotá', '3123456789');
 INSERT INTO Proveedor (nit, nombre, num_cuenta, direccion, ciudad, telefono) VALUES ('8001357453', 'Innova Parts', '15003572000563', 'Calle 36 #25-21', 'Medellín', '3145678901');
 INSERT INTO Proveedor (nit, nombre, num_cuenta, direccion, ciudad, telefono) VALUES ('8001357469', 'Mobile Parts', '12999772000563', 'Calle 10 #14-67', 'Cali', '3156789012');
@@ -163,8 +162,8 @@ INSERT INTO Proveedor (nit, nombre, num_cuenta, direccion, ciudad, telefono) VAL
 INSERT INTO Proveedor (nit, nombre, num_cuenta, direccion, ciudad, telefono) VALUES ('6801357924', 'Acero y Tornillería', '5792468013', 'Carrera 5 # 10-15', 'Cali', '5792468013');
 INSERT INTO Proveedor (nit, nombre, num_cuenta, direccion, ciudad, telefono) VALUES ('7924680135', 'Materiales y Herrajes Eléctricos', '6801357924', 'Avenida 30 # 40-50', 'Bogotá', '6801357924');
 INSERT INTO Proveedor (nit, nombre, num_cuenta, direccion, ciudad, telefono) VALUES ('0135792468', 'Herramientas y Accesorios de la Costa', '7924680135', 'Carrera 10 # 15-20', 'Santa Marta', '7924680135');
-INSERT INTO Proveedor (nit, nombre, num_cuenta, direccion, ciudad, telefono) VALUES ('2468013579', 'Ferretería y Suministros San Jorge', '0135792468', 'Calle 20 # 30-40', 'Cúcuta', '0135792468');
-INSERT INTO Proveedor (nit, nombre, num_cuenta, direccion, ciudad, telefono) VALUES ('3579246801', 'Herramientas y Materiales del Oriente', '2468013579', 'Carrera 5 # 10-15', 'Villavicencio', '2468013579');
+INSERT INTO Proveedor (nit, nombre, num_cuenta, direccion, ciudad, telefono) VALUES ('2461234579', 'Ferretería y Suministros San Jorge', '0135792468', 'Calle 20 # 30-40', 'Cúcuta', '0135792468');
+INSERT INTO Proveedor (nit, nombre, num_cuenta, direccion, ciudad, telefono) VALUES ('3512346801', 'Herramientas y Materiales del Oriente', '2468013579', 'Carrera 5 # 10-15', 'Villavicencio', '2468013579');
 INSERT INTO Proveedor (nit, nombre, num_cuenta, direccion, ciudad, telefono) VALUES ('9876543210', 'TechTrends', '65432109876543210987', 'Carrera 7 # 72-41', 'Bogotá', '3167890123');
 INSERT INTO Proveedor (nit, nombre, num_cuenta, direccion, ciudad, telefono) VALUES ('1239874560', 'GadgetWorld', '32165498765432165498', 'Calle 45 # 23-11', 'Barranquilla', '3187654321');
 INSERT INTO Proveedor (nit, nombre, num_cuenta, direccion, ciudad, telefono) VALUES ('7412589630', 'iTech', '96385274108654789012', 'Avenida San Martín # 29-55', 'Bucaramanga', '3209876543');
@@ -181,7 +180,6 @@ INSERT INTO Proveedor (nit, nombre, num_cuenta, direccion, ciudad, telefono) VAL
 INSERT INTO Proveedor (nit, nombre, num_cuenta, direccion, ciudad, telefono) VALUES ('7478959630', 'GadgetStore', '32165498765231847652', 'Avenida Chile # 7-23', 'Barranquilla', '3167890123');
 INSERT INTO Proveedor (nit, nombre, num_cuenta, direccion, ciudad, telefono) VALUES ('8900743740', 'PcTrends', '75395128401234567890', 'Carrera 35 # 28-18', 'Bucaramanga', '3209876543');
 INSERT INTO Proveedor (nit, nombre, num_cuenta, direccion, ciudad, telefono) VALUES ('1239518520', 'ElectroLand', '65432198705621847012', 'Carrera 20 # 32-10', 'Cali', '3176543210');
-
 
 -- Crear tabla Servicio
 CREATE TABLE Servicio (
