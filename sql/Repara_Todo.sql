@@ -321,70 +321,105 @@ CREATE TABLE Cliente (
 );
 
 -- Corregir los que fallen
-INSERT INTO Cliente (identificacion, nombre_completo, email, direccion_domicilio, telefono) VALUES ('76307332', 'William Efrain Abella Herrera', 'william_abella32@email.com', 'Calle 123 # 45-67', '3101234567');
-INSERT INTO Cliente (identificacion, nombre_completo, direccion_domicilio, telefono) VALUES ('10547808', 'Jose Fausto Acosta', 'Carrera 56 # 78-90', '3012345678');
-INSERT INTO Cliente (identificacion, nombre_completo, email, direccion_domicilio, telefono) VALUES ('34532270', 'Maria Amparo Acosta Aragon', 'amparo_acosta70@email.com', 'Avenida 12 # 34-56', '3203456789');
-INSERT INTO Cliente (identificacion, nombre_completo, email, direccion_domicilio, telefono) VALUES ('76323459', 'Guefry Leider Agredo Mendez', 'guefry_agredo59@email.com', 'Calle 1 # 2-3', '3156789012');
-INSERT INTO Cliente (identificacion, nombre_completo, direccion_domicilio, telefono) VALUES ('34531725', 'Ximena Lucia Agredo Tobar', 'Carrera 10 # 20-30', '3102345678');
-INSERT INTO Cliente (identificacion, nombre_completo, email, direccion_domicilio, telefono) VALUES ('76305729', 'Guillermo Aleja Agredo Torres', 'guillermo_agredo29@email.com', 'Calle 5 # 6-7', '3001234567');
-INSERT INTO Cliente (identificacion, nombre_completo, direccion_domicilio, telefono) VALUES ('42870562', 'Nora Elena Agudelo de Lopez', 'Carrera 50 # 60-70', '3052345678');
-INSERT INTO Cliente (identificacion, nombre_completo, email, direccion_domicilio, telefono) VALUES ('75076432', 'Juan Carlos Aguirre Garcia', 'juancarlos_aguirre32@email.com', 'Calle 20 # 30-40', '3203456789');
-INSERT INTO Cliente (identificacion, nombre_completo, direccion_domicilio, telefono) VALUES ('10537683', 'Noe Alban Lopez', 'Carrera 30 # 40-50', '3012345678');
-INSERT INTO Cliente (identificacion, nombre_completo, email, direccion_domicilio, telefono) VALUES ('76288230', 'Diego Alonso Alegria Fernandez', 'diegoalejo30@email.com', 'Calle 100 # 200-300', '3101234567');
-INSERT INTO Cliente (identificacion, nombre_completo, email, direccion_domicilio, telefono) VALUES ('76317155', 'Carlos Alberto Alegria Velasquez', 'carlosalejo55@email.com', 'Avenida 10 # 20-30', '3156789012');
-INSERT INTO Cliente (identificacion, nombre_completo, direccion_domicilio, telefono) VALUES ('10536636', 'Luis Evelio Alvarez Jaramillo', 'Carrera 10 # 20-30', '3102345678');
-INSERT INTO Cliente (identificacion, nombre_completo, email, direccion_domicilio, telefono) VALUES ('34532270', 'ACOSTA ARAGON MARIA AMPARO', 'maria_acosta78@email.com', 'Calle 12 # 5-67', '3214567890');
-INSERT INTO Cliente (identificacion, nombre_completo, email, direccion_domicilio, telefono) VALUES ('76323459', 'AGREDO MENDEZ GUEFRY LEIDER', 'guefredoagredo23@email.com', 'Carrera 23 # 56-34', '3156789023');
-INSERT INTO Cliente (identificacion, nombre_completo, email, direccion_domicilio, telefono) VALUES ('34531725', 'AGREDO TOBAR XIMENA LUCIA', 'ximena_tobar76@email.com', 'Calle 25 # 7-89', '3123456789');
-INSERT INTO Cliente (identificacion, nombre_completo, email, direccion_domicilio, telefono) VALUES ('76305729', 'AGREDO TORRES GUILLERMO ALEJA', 'guillermo_agredo12@email.com', 'Carrera 12 # 34-56', '3109876543');
-INSERT INTO Cliente (identificacion, nombre_completo, email, direccion_domicilio, telefono) VALUES ('42870562', 'AGUDELO DE LOPEZ NORA ELENA', 'nora_agudelo78@email.com', 'Calle 56 # 23-12', '3201234567');
-INSERT INTO Cliente (identificacion, nombre_completo, email, direccion_domicilio, telefono) VALUES ('75076432', 'AGUIRRE GARCIA JUAN CARLOS', 'juan_aguirre45@email.com', 'Carrera 45 # 12-78', '3178901234');
-INSERT INTO Cliente (identificacion, nombre_completo, email, direccion_domicilio, telefono) VALUES ('10537683', 'ALBAN LOPEZ NOE', 'noe_alban56@email.com', 'Calle 56 # 23-12', '3152345678');
-INSERT INTO Cliente (identificacion, nombre_completo, email, direccion_domicilio, telefono) VALUES ('76288230', 'ALEGRIA FERNANDEZ DIEGO ALONSO', 'diego_alegria01@email.com', 'Carrera 1 # 23-45', '3128901234');
-INSERT INTO Cliente (identificacion, nombre_completo, email, direccion_domicilio, telefono) VALUES ('76317155', 'ALEGRIA VELASQUEZ CARLOS ALBERTO', 'carlos_alegria89@email.com', 'Calle 89 # 34-12', '3105678901');
-INSERT INTO Cliente (identificacion, nombre_completo, email, direccion_domicilio, telefono) VALUES ('10536636', 'ALVAREZ JARAMILLO LUIS EVELIO', 'luis_alvarez56@email.com', 'Carrera 56 # 23-78', '3145678901');
-INSERT INTO Cliente (identificacion, nombre_completo, email, direccion_domicilio, telefono) VALUES ('34528262', 'ANDRADE DE VALENCIA LUZ AMPARO', 'luz_andrade82@email.com', 'Cra. 30 # 45-20, Bogotá', '3135897214');
-INSERT INTO Cliente VALUES ('2899818', 'ANDRADE G GERARDO MESIAS', 'gerardo_andrade28@email.com', 'Calle 72 # 15-20, Bogotá', '3147859632');
-INSERT INTO Cliente VALUES ('43857820', 'ARANGO MEJIA LUIS ANTONIO', 'luis_arango20@email.com', 'Cra. 28 # 15-20, Medellín', '3105896321');
-INSERT INTO Cliente VALUES ('10548966', 'ARAUJO ALVAREZ LUIS EDUARDO', 'luis_araujo89@email.com', 'Calle 14 # 7-50, Cartagena', '3007458962');
-INSERT INTO Cliente VALUES ('10529744', 'ARAUJO CASTRO JOSE LUIS', 'jose_araujo27@email.com', 'Cra. 14 # 25-30, Cali', '3159857432');
-INSERT INTO Cliente VALUES ('10537773', 'ARIAS ECHEVERRI ALBERTO', 'alberto_arias21@email.com', 'Cra. 5 # 12-25, Bucaramanga', '3125896321');
-INSERT INTO Cliente VALUES ('34538778', 'ARIAS OROZCO ANA MARIA', 'ana_arias21@email.com', 'Cra. 40 # 30-20, Barranquilla', '3187459632');
-INSERT INTO Cliente VALUES ('76315785', 'AVILA MORENO CARLOS ANDRES', 'carlos_avila13@email.com', 'Calle 68 # 20-30, Bogotá', '3115896321');
-INSERT INTO Cliente VALUES ('10532898', 'BAEZ MERCADO LUIS FERNANDO', 'luis_baez23@email.com', 'Cra. 20 # 15-10, Pereira', '3175896321');
-INSERT INTO Cliente VALUES ('10536243', 'BARBOSA BEDOYA CESAR AUGUSTO', 'cesar_barbosa09@email.com', 'Cra. 8 # 12-25, Cali', '3155896321');
-INSERT INTO Cliente VALUES ('76327384', 'BARRAGAN MORALES LILIANA', 'liliana_barragan27@email.com', 'Cra. 15 # 18-20, Bogotá', '3107459632');
-INSERT INTO Cliente VALUES ('10539222', 'BARRERA CARVAJAL JOSE LUIS', 'jose_barrera91@email.com', 'Cra. 10 # 20-30, Bucaramanga', '3175896321');
-INSERT INTO Cliente (identificacion, nombre_completo, email, direccion_domicilio, telefono) VALUES ('76304893', 'CARDONA HERNANDEZ CRISTIAN CAMILO', 'ccardonahernandez@gmail.com', 'Calle 48 # 23-45', '3157892345');
+INSERT INTO Cliente (identificacion, nombre_completo, email, direccion_domicilio, telefono ) VALUES ('10547808', 'Alejandro García', 'agarcia@gmail.com', 'Calle 10 # 20-30, Bogotá', '3101234567 ');
+INSERT INTO Cliente (identificacion, nombre_completo, email, direccion_domicilio, telefono ) VALUES ('34532270', 'Ana López', 'alopez@hotmail.com', 'Carrera 25 # 40-50, Medellín', '3102345678 ');
+INSERT INTO Cliente (identificacion, nombre_completo, email, direccion_domicilio, telefono ) VALUES ('76323459', 'Andrés Martínez', 'amartinez@gmail.com', 'Avenida 7 # 15-25, Barranquilla', '3103456789 ');
+INSERT INTO Cliente (identificacion, nombre_completo, email, direccion_domicilio, telefono ) VALUES ('34531725', 'Brenda Sánchez', 'bsanchez@yahoo.com', 'Calle 12 # 34-44, Cali', '3104567890 ');
+INSERT INTO Cliente (identificacion, nombre_completo, email, direccion_domicilio, telefono ) VALUES ('76305729', 'Camila González', 'cgonzalez@gmail.com', 'Carrera 50 # 70-80, Bogotá', '3105678901 ');
+INSERT INTO Cliente (identificacion, nombre_completo, email, direccion_domicilio, telefono ) VALUES ('42870562', 'Carlos Torres', 'ctorres@hotmail.com', 'Calle 80 # 90-100, Medellín', '3106789012 ');
+INSERT INTO Cliente (identificacion, nombre_completo, email, direccion_domicilio, telefono ) VALUES ('75076432', 'Claudia Gómez', 'cgomez@yahoo.com', 'Avenida 20 # 30-40, Barranquilla', '3107890123 ');
+INSERT INTO Cliente (identificacion, nombre_completo, email, direccion_domicilio, telefono ) VALUES ('10537683', 'David Ramírez', 'dramirez@gmail.com', 'Calle 5 # 15-25, Cali', '3108901234 ');
+INSERT INTO Cliente (identificacion, nombre_completo, email, direccion_domicilio, telefono ) VALUES ('76288230', 'Diana Herrera', 'dherrera@hotmail.com', 'Carrera 30 # 40-50, Bogotá', '3109012345 ');
+INSERT INTO Cliente (identificacion, nombre_completo, email, direccion_domicilio, telefono ) VALUES ('76317155', 'Eduardo González', 'egonzalez@yahoo.com', 'Calle 25 # 35-45, Medellín', '3105678910 ');
+INSERT INTO Cliente (identificacion, nombre_completo, email, direccion_domicilio, telefono ) VALUES ('10536639', 'Estefanía Soto', 'esoto@gmail.com', 'Avenida 15 # 25-35, Barranquilla', '3104567891 ');
+INSERT INTO Cliente (identificacion, nombre_completo, email, direccion_domicilio, telefono ) VALUES ('34532271', 'Fabián Rojas', 'frojas@hotmail.com', 'Calle 10 # 20-30, Cali', '3103456781 ');
+INSERT INTO Cliente (identificacion, nombre_completo, email, direccion_domicilio, telefono ) VALUES ('76323499', 'Felipe Vargas', 'fvargas@gmail.com', 'Carrera 40 # 50-60, Bogotá', '3102345671 ');
+INSERT INTO Cliente (identificacion, nombre_completo, email, direccion_domicilio, telefono ) VALUES ('34531795', 'Fernanda Muñoz', 'fmunoz@yahoo.com', 'Calle 30 # 40-50, Medellín', '3101234561 ');
+INSERT INTO Cliente (identificacion, nombre_completo, email, direccion_domicilio, telefono ) VALUES ('76305739', 'Francisco Gutiérrez', 'fgutierrez@gmail.com', 'Avenida 10 # 20-30, Barranquilla', '3104567892 ');
+INSERT INTO Cliente (identificacion, nombre_completo, email, direccion_domicilio, telefono ) VALUES ('41870562', 'Gabriel López', 'glopez@hotmail.com', 'Carrera 60 # 70-80, Cali', '3107890124 ');
+INSERT INTO Cliente (identificacion, nombre_completo, email, direccion_domicilio, telefono ) VALUES ('75076232', 'Gabriela Pérez', 'gperez@yahoo.com', 'Calle 15 # 25-35, Bogotá', '3106789013 ');
+INSERT INTO Cliente (identificacion, nombre_completo, email, direccion_domicilio, telefono ) VALUES ('10534683', 'Ana María García', 'ana.garcia@email.com', 'Calle 23 #15-40, Bogotá, Colombia', '3157849632 ');
+INSERT INTO Cliente (identificacion, nombre_completo, email, direccion_domicilio, telefono ) VALUES ('76288231', 'Juan Carlos Herrera', 'jcherrera@email.com', 'Cra. 45 #67-12, Medellín, Colombia', '3109856743 ');
+INSERT INTO Cliente (identificacion, nombre_completo, email, direccion_domicilio, telefono ) VALUES ('76319155', 'María Fernanda Torres', 'mftorres@email.com', 'Av. 6N #23-56, Cali, Colombia', '3115467890 ');
+INSERT INTO Cliente (identificacion, nombre_completo, email, direccion_domicilio, telefono ) VALUES ('76517155', 'Luis Fernando Gómez', 'lfgomez@email.com', 'Carrera 10 #15-60, Bogotá, Colombia', '3187456321 ');
+INSERT INTO Cliente (identificacion, nombre_completo, email, direccion_domicilio, telefono ) VALUES ('10536636', 'Andrea Pérez', 'andrea.perez@email.com', 'Calle 12 #8-30, Cali, Colombia', '3156784321 ');
+INSERT INTO Cliente (identificacion, nombre_completo, email, direccion_domicilio, telefono ) VALUES ('34528261', 'Carlos Andrés Montoya', 'camontoya@email.com', 'Cra. 23 #45-67, Medellín, Colombia', '3119876543 ');
+INSERT INTO Cliente (identificacion, nombre_completo, email, direccion_domicilio, telefono ) VALUES ('34528262', 'Sofía González', 'sofia.gonzalez@email.com', 'Av. Circunvalar #20-10, Bogotá, CO', '3127658901 ');
+INSERT INTO Cliente (identificacion, nombre_completo, email, direccion_domicilio, telefono ) VALUES ('43857820', 'Juan Pablo Restrepo', 'jpablo.restrepo@email.com', 'Cra. 50 #70-34, Medellín, Colombia', '3153456789 ');
+INSERT INTO Cliente (identificacion, nombre_completo, email, direccion_domicilio, telefono ) VALUES ('10548966', 'Carolina Vásquez', 'caro.vasquez@email.com', 'Calle 34 #15-20, Bogotá, Colombia', '3186547890 ');
+INSERT INTO Cliente (identificacion, nombre_completo, email, direccion_domicilio, telefono ) VALUES ('10529744', 'Daniel Sánchez', 'daniel.sanchez@email.com', 'Cra. 23 #56-12, Cali, Colombia', '3104567890 ');
+INSERT INTO Cliente (identificacion, nombre_completo, email, direccion_domicilio, telefono ) VALUES ('10537773', 'Laura Hernández', 'laura.hernandez@email.com', 'Carrera 7 #10-50, Medellín, CO', '3152345678 ');
+INSERT INTO Cliente (identificacion, nombre_completo, email, direccion_domicilio, telefono ) VALUES ('34538778', 'Alejandro Rodríguez', 'alejandro.rodriguez@email.com', 'Calle 45 #30-18, Bogotá, Colombia', '3123456789 ');
+INSERT INTO Cliente (identificacion, nombre_completo, email, direccion_domicilio, telefono ) VALUES ('76315785', 'Camila Giraldo', 'camila.giraldo@email.com', 'Av. 5N #17-45, Cali, Colombia', '3186789456 ');
+INSERT INTO Cliente (identificacion, nombre_completo, email, direccion_domicilio, telefono ) VALUES ('10532898', 'Andrés Felipe Ramírez', 'andresf.ramirez@email.com', 'Cra. 35 #45-70, Medellín, Colombia', '3108765432 ');
+INSERT INTO Cliente (identificacion, nombre_completo, email, direccion_domicilio, telefono ) VALUES ('10536243', 'Juan Pérez', 'jperez@email.com', 'Calle 10 # 12-34', '3105551212 ');
+INSERT INTO Cliente (identificacion, nombre_completo, email, direccion_domicilio, telefono ) VALUES ('76327384', 'María Gómez', 'mgomez@email.com', 'Cra 25 # 45-67', '3205551313 ');
+INSERT INTO Cliente (identificacion, nombre_completo, email, direccion_domicilio, telefono ) VALUES ('10539222', 'Luisa Rodríguez', 'lrodriguez@email.com', 'Av 6 # 10-12', '3005551414 ');
+INSERT INTO Cliente (identificacion, nombre_completo, email, direccion_domicilio, telefono ) VALUES ('76304893', 'Carlos Sánchez', 'csanchez@email.com', 'Calle 50 # 30-20', '3105551515 ');
+INSERT INTO Cliente (identificacion, nombre_completo, email, direccion_domicilio, telefono ) VALUES ('10549827', 'Ana Martínez', 'amartinez@email.com', 'Cra 7 # 15-25', '3205551616 ');
+INSERT INTO Cliente (identificacion, nombre_completo, email, direccion_domicilio, telefono ) VALUES ('76299538', 'Pedro Ramírez', 'pramirez@email.com', 'Av 2 # 5-10', '3005551717 ');
+INSERT INTO Cliente (identificacion, nombre_completo, email, direccion_domicilio, telefono ) VALUES ('34538347', 'Marta González', 'mgonzalez@email.com', 'Calle 22 # 30-40', '3105551818 ');
+INSERT INTO Cliente (identificacion, nombre_completo, email, direccion_domicilio, telefono ) VALUES ('10544327', 'Francisco Torres', 'ftorres@email.com', 'Cra 12 # 8-6', '3205551919 ');
+INSERT INTO Cliente (identificacion, nombre_completo, email, direccion_domicilio, telefono ) VALUES ('76314220', 'Gabriela López', 'glopez@email.com', 'Av 8 # 10-15', '3005552020 ');
+INSERT INTO Cliente (identificacion, nombre_completo, email, direccion_domicilio, telefono ) VALUES ('10547768', 'Laura Vargas', 'lvargas@email.com', 'Calle 35 # 40-50', '3105552121 ');
+INSERT INTO Cliente (identificacion, nombre_completo, email, direccion_domicilio, telefono ) VALUES ('34539009', 'Luis Pérez', 'lperez@email.com', 'Cra 17 # 20-30', '3205552222 ');
+INSERT INTO Cliente (identificacion, nombre_completo, email, direccion_domicilio, telefono ) VALUES ('76299752', 'Ana Gómez', 'agomez@email.com', 'Av 5 # 6-7', '3005552323 ');
+INSERT INTO Cliente (identificacion, nombre_completo, email, direccion_domicilio, telefono ) VALUES ('34531288', 'Carlos Rodríguez', 'crodriguez@email.com', 'Calle 12 # 15-18', '3105552424 ');
+INSERT INTO Cliente (identificacion, nombre_completo, email, direccion_domicilio, telefono ) VALUES ('10539008', 'María Sánchez', 'msanchez@email.com', 'Cra 3 # 2-1', '3205552525 ');
 
-INSERT INTO Cliente (identificacion, nombre_completo, email, direccion_domicilio, telefono) VALUES ('10549827', 'CASTILLO HENAO JENIFER ANDREA', 'jencastillo92@hotmail.com', 'Carrera 18 # 21-35', '3104567890');
-
-INSERT INTO Cliente (identificacion, nombre_completo, email, direccion_domicilio, telefono) VALUES ('76299538', 'CASTRO TOVAR JOSE EDUARDO', 'josecastrotovar@hotmail.com', 'Carrera 14 # 17-39', '3112345678');
-
-INSERT INTO Cliente (identificacion, nombre_completo, email, direccion_domicilio, telefono) VALUES ('34538347', 'CHACON PEREZ NUBIA ESPERANZA', 'nubiachaconperez@gmail.com', 'Calle 20 # 15-56', '3178901234');
-
-INSERT INTO Cliente (identificacion, nombre_completo, email, direccion_domicilio, telefono) VALUES ('10544327', 'CORREA MENDEZ LUIS FELIPE', 'lfcormen@gmail.com', 'Carrera 7 # 4-67', '3156789012');
-
-INSERT INTO Cliente (identificacion, nombre_completo, email, direccion_domicilio, telefono) VALUES ('76314220', 'CORTES LOZANO YULIANA ANDREA', 'yulianacortesl@gmail.com', 'Calle 12 # 9-34', '3119876543');
-
-INSERT INTO Cliente (identificacion, nombre_completo, email, direccion_domicilio, telefono) VALUES ('10547768', 'DIAZ RIVERA ADRIANA MARCELA', 'adrianadiazr@gmail.com', 'Carrera 22 # 24-17', '3164567890');
-
-INSERT INTO Cliente (identificacion, nombre_completo, email, direccion_domicilio, telefono) VALUES ('34539009', 'ESPINOZA CORTES BLANCA PATRICIA', 'blancaespinozacortes@gmail.com', 'Calle 42 # 31-10', '3103456789');
-
-INSERT INTO Cliente (identificacion, nombre_completo, email, direccion_domicilio, telefono) VALUES ('76299752', 'FLOREZ GARCIA CESAR AUGUSTO', 'cesaraflorezg@hotmail.com', 'Carrera 16 # 19-25', '3134567890');
-
-INSERT INTO Cliente (identificacion, nombre_completo, email, direccion_domicilio, telefono) VALUES ('34531288', 'GALLEGO SANCHEZ JORGE ANDRES', 'jorgegallegosan@gmail.com', 'Calle 56 # 44-20', '3105678901');
-
-INSERT INTO Cliente (identificacion, nombre_completo, email, direccion_domicilio, telefono) VALUES ('10539008', 'GALLO PARRA JHON JAIRO', 'jhangallop@gmail.com', 'Carrera 13 # 10-15', '3167890123');
 
 
 -- Crear tabla Membresia
 CREATE TABLE Membresia (
   id_cliente CHAR(10) PRIMARY KEY,
-  id_membresia CHAR(3),
+  id_membresia CHAR(7),-- acendiente 
   tipo VARCHAR(255) CHECK (tipo IN ('bronce', 'plata', 'oro', 'platino')),
   FOREIGN KEY (id_cliente) REFERENCES Cliente(identificacion)
 );
+
+INSERT INTO Membresia (id_cliente, id_membresia, tipo) VALUES ('10547808', '821 ', 'Oro ');
+INSERT INTO Membresia (id_cliente, id_membresia, tipo) VALUES ('34532270', '513 ', 'Plata ');
+INSERT INTO Membresia (id_cliente, id_membresia, tipo) VALUES ('76323459', '722 ', 'Platino ');
+INSERT INTO Membresia (id_cliente, id_membresia, tipo) VALUES ('34531725', '937 ', 'Bronce ');
+INSERT INTO Membresia (id_cliente, id_membresia, tipo) VALUES ('76305729', '105 ', 'Oro ');
+INSERT INTO Membresia (id_cliente, id_membresia, tipo) VALUES ('42870562', '408 ', 'Plata ');
+INSERT INTO Membresia (id_cliente, id_membresia, tipo) VALUES ('75076432', '621 ', 'Plata ');
+INSERT INTO Membresia (id_cliente, id_membresia, tipo) VALUES ('10537683', '770 ', 'Oro ');
+INSERT INTO Membresia (id_cliente, id_membresia, tipo) VALUES ('76288230', '152 ', 'Plata ');
+INSERT INTO Membresia (id_cliente, id_membresia, tipo) VALUES ('76317155', '894 ', 'Platino ');
+INSERT INTO Membresia (id_cliente, id_membresia, tipo) VALUES ('10536639', '330 ', 'Bronce ');
+INSERT INTO Membresia (id_cliente, id_membresia, tipo) VALUES ('34532271', '697 ', 'Oro ');
+INSERT INTO Membresia (id_cliente, id_membresia, tipo) VALUES ('76323499', '454 ', 'Bronce ');
+INSERT INTO Membresia (id_cliente, id_membresia, tipo) VALUES ('34531795', '643 ', 'Bronce ');
+INSERT INTO Membresia (id_cliente, id_membresia, tipo) VALUES ('76305739', '819 ', 'Oro ');
+INSERT INTO Membresia (id_cliente, id_membresia, tipo) VALUES ('41870562', '983 ', 'Plata ');
+INSERT INTO Membresia (id_cliente, id_membresia, tipo) VALUES ('75076232', '267 ', 'Plata ');
+INSERT INTO Membresia (id_cliente, id_membresia, tipo) VALUES ('10534683', '577 ', 'Oro ');
+INSERT INTO Membresia (id_cliente, id_membresia, tipo) VALUES ('76288231', '902', 'Platino ');
+INSERT INTO Membresia (id_cliente, id_membresia, tipo) VALUES ('76319155', '738', 'Bronce ');
+INSERT INTO Membresia (id_cliente, id_membresia, tipo) VALUES ('10536636', '924', 'Oro ');
+INSERT INTO Membresia (id_cliente, id_membresia, tipo) VALUES ('34528262', '180', 'Bronce ');
+INSERT INTO Membresia (id_cliente, id_membresia, tipo) VALUES ('34528262', '601', 'Plata ');
+INSERT INTO Membresia (id_cliente, id_membresia, tipo) VALUES ('43857820', '386', 'Plata ');
+INSERT INTO Membresia (id_cliente, id_membresia, tipo) VALUES ('10548966', '284', 'Platino ');
+INSERT INTO Membresia (id_cliente, id_membresia, tipo) VALUES ('10529744', '635', 'Bronce ');
+INSERT INTO Membresia (id_cliente, id_membresia, tipo) VALUES ('10537773', '820', 'Oro ');
+INSERT INTO Membresia (id_cliente, id_membresia, tipo) VALUES ('34538778', '424', 'Platino ');
+INSERT INTO Membresia (id_cliente, id_membresia, tipo) VALUES ('76315785', '153', 'Oro ');
+INSERT INTO Membresia (id_cliente, id_membresia, tipo) VALUES ('10532898', '726', 'Plata ');
+INSERT INTO Membresia (id_cliente, id_membresia, tipo) VALUES ('10536243', '919', 'Oro ');
+INSERT INTO Membresia (id_cliente, id_membresia, tipo) VALUES ('76327384', '511', 'Bronce ');
+INSERT INTO Membresia (id_cliente, id_membresia, tipo) VALUES ('10539222', '357', 'Platino ');
+INSERT INTO Membresia (id_cliente, id_membresia, tipo) VALUES ('76304893', '657', 'Oro ');
+INSERT INTO Membresia (id_cliente, id_membresia, tipo) VALUES ('10549827', '894', 'Oro ');
+INSERT INTO Membresia (id_cliente, id_membresia, tipo) VALUES ('76299538', '293', 'Bronce ');
+INSERT INTO Membresia (id_cliente, id_membresia, tipo) VALUES ('34538347', '494', 'Plata ');
+INSERT INTO Membresia (id_cliente, id_membresia, tipo) VALUES ('10544327', '982', 'Plata ');
+
+
+
+
+
 
 -- Crear tabla Dispositivo
 CREATE TABLE Dispositivo (
@@ -397,6 +432,53 @@ CREATE TABLE Dispositivo (
     FOREIGN KEY (id_cliente) REFERENCES Cliente(identificacion)
 );
 
+INSERT INTO Dispositivo (id_cliente, marca, modelo, averias, serial ) VALUES ('10547808', 'LG', 'Velvet 5G', 'Pantalla en negro', '0000000 ');
+INSERT INTO Dispositivo (id_cliente, marca, modelo, averias, serial ) VALUES ('34532270', 'Motorola', 'Moto G9 Plus', 'No se carga la batería', '0000001 ');
+INSERT INTO Dispositivo (id_cliente, marca, modelo, averias, serial ) VALUES ('76323459', 'Sony', 'Xperia L1', 'Problemas de almacenamiento interno', '0000002 ');
+INSERT INTO Dispositivo (id_cliente, marca, modelo, averias, serial ) VALUES ('34531725', 'OnePlus', '8T', 'El dispositivo se calienta mucho', '0000003 ');
+INSERT INTO Dispositivo (id_cliente, marca, modelo, averias, serial ) VALUES ('76305729', 'Google', 'Pixel 3 XL', 'Problemas de conectividad Bluetooth', '0000004 ');
+INSERT INTO Dispositivo (id_cliente, marca, modelo, averias, serial ) VALUES ('42870562', 'BlackBerry', 'DTEK60', 'Problemas de micrófono', '0000005 ');
+INSERT INTO Dispositivo (id_cliente, marca, modelo, averias, serial ) VALUES ('75076432', 'Samsung', 'Galaxy M31', 'Problemas de Wi-Fi', '0000006 ');
+INSERT INTO Dispositivo (id_cliente, marca, modelo, averias, serial ) VALUES ('10537683', 'Apple', 'MacBook Pro', 'Problemas de rendimiento', '0000007 ');
+INSERT INTO Dispositivo (id_cliente, marca, modelo, averias, serial ) VALUES ('76288230', 'Xiaomi', 'Mi 10T Lite', 'Pantalla con manchas verdes', '0000008 ');
+INSERT INTO Dispositivo (id_cliente, marca, modelo, averias, serial ) VALUES ('76317155', 'Huawei', 'Nova 5T', 'Pantalla parpadea y no responde al tacto', '0000009 ');
+INSERT INTO Dispositivo (id_cliente, marca, modelo, averias, serial ) VALUES ('10536639', 'LG', 'Stylo 6', 'Se reinicia constantemente', '0000010 ');
+INSERT INTO Dispositivo (id_cliente, marca, modelo, averias, serial ) VALUES ('34532271', 'Motorola', 'Moto G100', 'Pantalla con rayas horizontales', '0000011 ');
+INSERT INTO Dispositivo (id_cliente, marca, modelo, averias, serial ) VALUES ('76323499', 'Sony', 'Xperia XZ1', 'Problemas de carga', '0000012 ');
+INSERT INTO Dispositivo (id_cliente, marca, modelo, averias, serial ) VALUES ('34531795', 'OnePlus', '9 Pro', 'Problemas de altavoz', '0000013 ');
+INSERT INTO Dispositivo (id_cliente, marca, modelo, averias, serial ) VALUES ('76305739', 'Google', 'Pixel 5a', 'Pantalla con píxeles muertos', '0000014 ');
+INSERT INTO Dispositivo (id_cliente, marca, modelo, averias, serial ) VALUES ('41870562', 'BlackBerry', 'Key2', 'Teclado físico no funciona', '0000015 ');
+INSERT INTO Dispositivo (id_cliente, marca, modelo, averias, serial ) VALUES ('75076232', 'Samsung', 'Galaxy S20 FE', 'Batería dura muy poco', '0000016 ');
+INSERT INTO Dispositivo (id_cliente, marca, modelo, averias, serial ) VALUES ('10534683', 'Apple', 'iPhone 11', 'Problemas de audio durante llamadas', '0000017 ');
+INSERT INTO Dispositivo (id_cliente, marca, modelo, averias, serial ) VALUES ('76288231', 'Xiaomi', 'Redmi 9', 'Pantalla se ve oscura en áreas específicas', '0000018 ');
+INSERT INTO Dispositivo (id_cliente, marca, modelo, averias, serial ) VALUES ('76319155', 'Huawei', 'P30 Pro', 'Se apaga y no enciende', '0000019 ');
+INSERT INTO Dispositivo (id_cliente, marca, modelo, averias, serial ) VALUES ('76317155', 'LG', 'K31', 'Problemas de micrófono durante llamadas', '0000020 ');
+INSERT INTO Dispositivo (id_cliente, marca, modelo, averias, serial ) VALUES ('10536636', 'Motorola', 'Moto G7 Play', 'Problemas de señal Wi-Fi', '0000021 ');
+INSERT INTO Dispositivo (id_cliente, marca, modelo, averias, serial ) VALUES ('34528262', 'Sony', 'Xperia XA2', 'Pantalla rota', '00000022 ');
+INSERT INTO Dispositivo (id_cliente, marca, modelo, averias, serial ) VALUES ('34528262', 'OnePlus', '6T', 'Problemas de carga inalám', '0000023 ');
+INSERT INTO Dispositivo (id_cliente, marca, modelo, averias, serial ) VALUES ('43857820', 'Samsung', 'Galaxy S21', 'Pantalla rota y batería agotada', '0000024 ');
+INSERT INTO Dispositivo (id_cliente, marca, modelo, averias, serial ) VALUES ('10548966', 'Apple', 'iPhone 12 Pro', 'Cámara frontal dañada', '00000025 ');
+INSERT INTO Dispositivo (id_cliente, marca, modelo, averias, serial ) VALUES ('10529744', 'LG', 'K61', 'Pantalla en blanco', '0000026 ');
+INSERT INTO Dispositivo (id_cliente, marca, modelo, averias, serial ) VALUES ('10537773', 'Xiaomi', 'Redmi Note 10', 'Botón de encendido no funciona', '0000027 ');
+INSERT INTO Dispositivo (id_cliente, marca, modelo, averias, serial ) VALUES ('34538778', 'Huawei', 'P40 Pro', 'No carga la batería', '0000028 ');
+INSERT INTO Dispositivo (id_cliente, marca, modelo, averias, serial ) VALUES ('76315785', 'Motorola', 'Moto G Power', 'Problemas de audio y micrófono', '0000029 ');
+INSERT INTO Dispositivo (id_cliente, marca, modelo, averias, serial ) VALUES ('10532898', 'Sony', 'Xperia XA1', 'Se apaga repentinamente', '0000030 ');
+INSERT INTO Dispositivo (id_cliente, marca, modelo, averias, serial ) VALUES ('10536243', 'OnePlus', 'Nord 2', 'Problemas de conectividad Wi-Fi', '0000031 ');
+INSERT INTO Dispositivo (id_cliente, marca, modelo, averias, serial ) VALUES ('76327384', 'Google', 'Pixel 4a', 'No reconoce la tarjeta SIM', '0000032 ');
+INSERT INTO Dispositivo (id_cliente, marca, modelo, averias, serial ) VALUES ('10539222', 'BlackBerry', 'Key2 LE', 'Problemas de teclado físico', '0000033 ');
+INSERT INTO Dispositivo (id_cliente, marca, modelo, averias, serial ) VALUES ('76304893', 'Samsung', 'Galaxy A52', 'Problemas de carga', '0000034 ');
+INSERT INTO Dispositivo (id_cliente, marca, modelo, averias, serial ) VALUES ('10549827', 'Apple', 'iPad Pro', 'Pantalla con rayas verticales', '0000035 ');
+INSERT INTO Dispositivo (id_cliente, marca, modelo, averias, serial ) VALUES ('76299538', 'Xiaomi', 'Mi 11 Lite', 'Se apaga y no enciende', '0000036 ');
+INSERT INTO Dispositivo (id_cliente, marca, modelo, averias, serial ) VALUES ('34538347', 'Huawei', 'Mate 40 Pro', 'Pantalla negra pero el teléfono suena', '0000037 ');
+INSERT INTO Dispositivo (id_cliente, marca, modelo, averias, serial ) VALUES ('10544327', 'Google', 'Pixel 3a XL', 'Problemas de sonido', '0000038 ');
+INSERT INTO Dispositivo (id_cliente, marca, modelo, averias, serial ) VALUES ('76314220', 'BlackBerry', 'DTEK50', 'Pantalla táctil no responde', '0000039 ');
+INSERT INTO Dispositivo (id_cliente, marca, modelo, averias, serial ) VALUES ('10547768', 'Samsung', 'Galaxy A51', 'Pantalla con líneas blancas y negras', '0000040 ');
+INSERT INTO Dispositivo (id_cliente, marca, modelo, averias, serial ) VALUES ('34539009', 'Apple', 'iPad Pro 12.9', 'Problemas de conectividad de red', '0000041 ');
+INSERT INTO Dispositivo (id_cliente, marca, modelo, averias, serial ) VALUES ('76299752', 'Xiaomi', 'Redmi Note 10', 'Pantalla se congela al jugar juegos pesados', '0000042 ');
+INSERT INTO Dispositivo (id_cliente, marca, modelo, averias, serial ) VALUES ('34531288', 'Huawei', 'P40 Pro', 'Problemas de reconocimiento facial', '0000043 ');
+INSERT INTO Dispositivo (id_cliente, marca, modelo, averias, serial ) VALUES ('10539008', 'LG', 'K92 5G', 'No recibe señal de red', '0000044 ');
+
+
 -- Crear tabla Cliente_Servicio
 CREATE TABLE Cliente_Servicio (
     id_cliente CHAR(10),
@@ -405,6 +487,54 @@ CREATE TABLE Cliente_Servicio (
     FOREIGN KEY (id_cliente) REFERENCES Cliente(identificacion),
     FOREIGN KEY (id_servicio) REFERENCES Servicio(id)
 );
+
+INSERT INTO Cliente_Servicio (id_cliente , id_servicio) VALUES ('10547808 ', '001 ');
+INSERT INTO Cliente_Servicio (id_cliente , id_servicio) VALUES ('34532270 ', '002 ');
+INSERT INTO Cliente_Servicio (id_cliente , id_servicio) VALUES ('76323459 ', '003 ');
+INSERT INTO Cliente_Servicio (id_cliente , id_servicio) VALUES ('34531725 ', '004 ');
+INSERT INTO Cliente_Servicio (id_cliente , id_servicio) VALUES ('76305729 ', '005 ');
+INSERT INTO Cliente_Servicio (id_cliente , id_servicio) VALUES ('42870562 ', '006 ');
+INSERT INTO Cliente_Servicio (id_cliente , id_servicio) VALUES ('75076432 ', '007 ');
+INSERT INTO Cliente_Servicio (id_cliente , id_servicio) VALUES ('10537683 ', '008 ');
+INSERT INTO Cliente_Servicio (id_cliente , id_servicio) VALUES ('76288230 ', '009 ');
+INSERT INTO Cliente_Servicio (id_cliente , id_servicio) VALUES ('76317155 ', '010 ');
+INSERT INTO Cliente_Servicio (id_cliente , id_servicio) VALUES ('10536639 ', '011 ');
+INSERT INTO Cliente_Servicio (id_cliente , id_servicio) VALUES ('34532271 ', '012 ');
+INSERT INTO Cliente_Servicio (id_cliente , id_servicio) VALUES ('76323499 ', '013 ');
+INSERT INTO Cliente_Servicio (id_cliente , id_servicio) VALUES ('34531795 ', '014 ');
+INSERT INTO Cliente_Servicio (id_cliente , id_servicio) VALUES ('76305739 ', '015 ');
+INSERT INTO Cliente_Servicio (id_cliente , id_servicio) VALUES ('41870562 ', '016 ');
+INSERT INTO Cliente_Servicio (id_cliente , id_servicio) VALUES ('75076232 ', '017 ');
+INSERT INTO Cliente_Servicio (id_cliente , id_servicio) VALUES ('10534683 ', '018 ');
+INSERT INTO Cliente_Servicio (id_cliente , id_servicio) VALUES ('76288231 ', '019 ');
+INSERT INTO Cliente_Servicio (id_cliente , id_servicio) VALUES ('76319155 ', '020 ');
+INSERT INTO Cliente_Servicio (id_cliente , id_servicio) VALUES ('76317155 ', '021 ');
+INSERT INTO Cliente_Servicio (id_cliente , id_servicio) VALUES ('10536636 ', '022 ');
+INSERT INTO Cliente_Servicio (id_cliente , id_servicio) VALUES ('34528262 ', '023 ');
+INSERT INTO Cliente_Servicio (id_cliente , id_servicio) VALUES ('34528262 ', '024 ');
+INSERT INTO Cliente_Servicio (id_cliente , id_servicio) VALUES ('43857820 ', '025 ');
+INSERT INTO Cliente_Servicio (id_cliente , id_servicio) VALUES ('10548966 ', '026 ');
+INSERT INTO Cliente_Servicio (id_cliente , id_servicio) VALUES ('10529744 ', '027 ');
+INSERT INTO Cliente_Servicio (id_cliente , id_servicio) VALUES ('10537773 ', '028 ');
+INSERT INTO Cliente_Servicio (id_cliente , id_servicio) VALUES ('34538778 ', '029 ');
+INSERT INTO Cliente_Servicio (id_cliente , id_servicio) VALUES ('76315785 ', '030 ');
+INSERT INTO Cliente_Servicio (id_cliente , id_servicio) VALUES ('10532898 ', '031 ');
+INSERT INTO Cliente_Servicio (id_cliente , id_servicio) VALUES ('10536243 ', '032 ');
+INSERT INTO Cliente_Servicio (id_cliente , id_servicio) VALUES ('76327384 ', '033 ');
+INSERT INTO Cliente_Servicio (id_cliente , id_servicio) VALUES ('10539222 ', '034 ');
+INSERT INTO Cliente_Servicio (id_cliente , id_servicio) VALUES ('76304893 ', '035 ');
+INSERT INTO Cliente_Servicio (id_cliente , id_servicio) VALUES ('10549827 ', '036 ');
+INSERT INTO Cliente_Servicio (id_cliente , id_servicio) VALUES ('76299538 ', '037 ');
+INSERT INTO Cliente_Servicio (id_cliente , id_servicio) VALUES ('34538347 ', '038 ');
+INSERT INTO Cliente_Servicio (id_cliente , id_servicio) VALUES ('10544327 ', '039 ');
+INSERT INTO Cliente_Servicio (id_cliente , id_servicio) VALUES ('76314220 ', '040 ');
+INSERT INTO Cliente_Servicio (id_cliente , id_servicio) VALUES ('10547768 ', '041 ');
+INSERT INTO Cliente_Servicio (id_cliente , id_servicio) VALUES ('34539009 ', '042 ');
+INSERT INTO Cliente_Servicio (id_cliente , id_servicio) VALUES ('76299752 ', '043 ');
+INSERT INTO Cliente_Servicio (id_cliente , id_servicio) VALUES ('34531288 ', '044 ');
+INSERT INTO Cliente_Servicio (id_cliente , id_servicio) VALUES ('10539008 ', '045 ');
+
+
 
 CREATE TABLE Reparacion (
     id_cliente CHAR(10),
@@ -417,3 +547,49 @@ CREATE TABLE Reparacion (
     FOREIGN KEY (id_cliente, id_servicio) REFERENCES Cliente_Servicio(id_cliente, id_servicio),
     FOREIGN KEY (id_dispositivo, id_cliente) REFERENCES Dispositivo(serial, id_cliente)
 );
+
+INSERT INTO Reparacion (id_cliente, id_servicio, id_dispositivo, id_reparacion , costo_total, fecha_entrega ) VALUES ('10547808 ', '001 ', 'EF5678GD ', 'NDJ1H8 ', '1500.00 ', '20/05/2023 ');
+INSERT INTO Reparacion (id_cliente, id_servicio, id_dispositivo, id_reparacion , costo_total, fecha_entrega ) VALUES ('34532270 ', '002 ', 'EF5678GH ', '8GK9EF ', '750.00 ', '1/05/2023 ');
+INSERT INTO Reparacion (id_cliente, id_servicio, id_dispositivo, id_reparacion , costo_total, fecha_entrega ) VALUES ('76323459 ', '003 ', 'IJ9012KL ', 'X9MNP4 ', '3000.00 ', '10/05/2023 ');
+INSERT INTO Reparacion (id_cliente, id_servicio, id_dispositivo, id_reparacion , costo_total, fecha_entrega ) VALUES ('34531725 ', '004 ', 'MN3456OP ', 'T7EJF2 ', '1800.00 ', '22/05/2023 ');
+INSERT INTO Reparacion (id_cliente, id_servicio, id_dispositivo, id_reparacion , costo_total, fecha_entrega ) VALUES ('76305729 ', '005 ', 'QR7890ST ', 'L4P6A9 ', '1200.00 ', '8/05/2023 ');
+INSERT INTO Reparacion (id_cliente, id_servicio, id_dispositivo, id_reparacion , costo_total, fecha_entrega ) VALUES ('42870562 ', '006 ', 'UV1234WX ', '2DFK7T ', '2500.00 ', '15/05/2023 ');
+INSERT INTO Reparacion (id_cliente, id_servicio, id_dispositivo, id_reparacion , costo_total, fecha_entrega ) VALUES ('75076432 ', '007 ', 'YZ5678AB ', 'G8M9PH ', '3500.00 ', '11/05/2023 ');
+INSERT INTO Reparacion (id_cliente, id_servicio, id_dispositivo, id_reparacion , costo_total, fecha_entrega ) VALUES ('10537683 ', '008 ', 'CD9012EF ', 'Y6N1K4 ', '4200.00 ', '18/05/2023 ');
+INSERT INTO Reparacion (id_cliente, id_servicio, id_dispositivo, id_reparacion , costo_total, fecha_entrega ) VALUES ('76288230 ', '009 ', 'GH3456IJ ', '7J4LTK ', '900.00 ', '5/05/2023 ');
+INSERT INTO Reparacion (id_cliente, id_servicio, id_dispositivo, id_reparacion , costo_total, fecha_entrega ) VALUES ('76317155 ', '010 ', 'KL7890MN ', 'D2R6S9 ', '2700.00 ', '14/05/2023 ');
+INSERT INTO Reparacion (id_cliente, id_servicio, id_dispositivo, id_reparacion , costo_total, fecha_entrega ) VALUES ('10536639 ', '011 ', 'OP1234AB ', 'A3V7K8 ', '1500.00 ', '23/05/2023 ');
+INSERT INTO Reparacion (id_cliente, id_servicio, id_dispositivo, id_reparacion , costo_total, fecha_entrega ) VALUES ('34532271 ', '012 ', 'QR5678CD ', 'S9F3G6 ', '2000.00 ', '3/05/2023 ');
+INSERT INTO Reparacion (id_cliente, id_servicio, id_dispositivo, id_reparacion , costo_total, fecha_entrega ) VALUES ('76323499 ', '013 ', 'ST9012EF ', 'H4N6M8 ', '2800.00 ', '17/05/2023 ');
+INSERT INTO Reparacion (id_cliente, id_servicio, id_dispositivo, id_reparacion , costo_total, fecha_entrega ) VALUES ('34531795 ', '014 ', 'UV3456WX ', 'J1T2R7 ', '3200.00 ', '26/05/2023 ');
+INSERT INTO Reparacion (id_cliente, id_servicio, id_dispositivo, id_reparacion , costo_total, fecha_entrega ) VALUES ('76305739 ', '015 ', 'AB1234CD ', 'P5K9S3 ', '800.00 ', '6/05/2023 ');
+INSERT INTO Reparacion (id_cliente, id_servicio, id_dispositivo, id_reparacion , costo_total, fecha_entrega ) VALUES ('41870562 ', '016 ', 'EF5678GH ', 'V8C4B9 ', '1700.00 ', '12/05/2023 ');
+INSERT INTO Reparacion (id_cliente, id_servicio, id_dispositivo, id_reparacion , costo_total, fecha_entrega ) VALUES ('75076232 ', '017 ', 'IJ9012KL ', 'L3X9M1 ', '1100.00 ', '2/05/2023 ');
+INSERT INTO Reparacion (id_cliente, id_servicio, id_dispositivo, id_reparacion , costo_total, fecha_entrega ) VALUES ('10534683 ', '018 ', 'MN3456OP ', 'T7J8E4 ', '3900.00 ', '19/05/2023 ');
+INSERT INTO Reparacion (id_cliente, id_servicio, id_dispositivo, id_reparacion , costo_total, fecha_entrega ) VALUES ('76288231 ', '019 ', 'QR7890ST ', 'K6P4A9', '2400.00 ', '19/05/2023 ');
+INSERT INTO Reparacion (id_cliente, id_servicio, id_dispositivo, id_reparacion , costo_total, fecha_entrega ) VALUES ('76319155 ', '020 ', 'UV1234WX ', 'E8T6K2 ', '1500.00 ', '20/05/2023 ');
+INSERT INTO Reparacion (id_cliente, id_servicio, id_dispositivo, id_reparacion , costo_total, fecha_entrega ) VALUES ('76317155 ', '021 ', 'YZ5678AB ', 'V3R7M1 ', '750.00 ', '1/05/2023 ');
+INSERT INTO Reparacion (id_cliente, id_servicio, id_dispositivo, id_reparacion , costo_total, fecha_entrega ) VALUES ('10536636 ', '022 ', 'CD9012EF ', 'J9K6L1 ', '3000.00 ', '10/05/2023 ');
+INSERT INTO Reparacion (id_cliente, id_servicio, id_dispositivo, id_reparacion , costo_total, fecha_entrega ) VALUES ('34528262 ', '023 ', 'GH3456IJ ', 'N7F2T9 ', '1800.00 ', '22/05/2023 ');
+INSERT INTO Reparacion (id_cliente, id_servicio, id_dispositivo, id_reparacion , costo_total, fecha_entrega ) VALUES ('34528262 ', '024 ', 'GH3476IJ ', 'X2P6A8 ', '1200.00 ', '8/05/2023 ');
+INSERT INTO Reparacion (id_cliente, id_servicio, id_dispositivo, id_reparacion , costo_total, fecha_entrega ) VALUES ('43857820 ', '025 ', 'AB1234CD ', 'L1T7J3 ', '2500.00 ', '15/05/2023 ');
+INSERT INTO Reparacion (id_cliente, id_servicio, id_dispositivo, id_reparacion , costo_total, fecha_entrega ) VALUES ('10548966 ', '026 ', 'EF5678GH ', 'G9F2H8 ', '3500.00 ', '11/05/2023 ');
+INSERT INTO Reparacion (id_cliente, id_servicio, id_dispositivo, id_reparacion , costo_total, fecha_entrega ) VALUES ('10529744 ', '027 ', 'IJ9012KL ', 'R1N6K9 ', '4200.00 ', '18/05/2023 ');
+INSERT INTO Reparacion (id_cliente, id_servicio, id_dispositivo, id_reparacion , costo_total, fecha_entrega ) VALUES ('10537773 ', '028 ', 'MN3456OP ', 'T8J6E1 ', '900.00 ', '5/05/2023 ');
+INSERT INTO Reparacion (id_cliente, id_servicio, id_dispositivo, id_reparacion , costo_total, fecha_entrega ) VALUES ('34538778 ', '029 ', 'QR7890ST ', 'Y4M7N2 ', '2700.00 ', '14/05/2023 ');
+INSERT INTO Reparacion (id_cliente, id_servicio, id_dispositivo, id_reparacion , costo_total, fecha_entrega ) VALUES ('76315785 ', '030 ', 'UV1234WX ', 'H8L6K9 ', '1500.00 ', '23/05/2023 ');
+INSERT INTO Reparacion (id_cliente, id_servicio, id_dispositivo, id_reparacion , costo_total, fecha_entrega ) VALUES ('10532898 ', '031 ', 'YZ5678AB ', 'D4S6R1 ', '2000.00 ', '3/05/2023 ');
+INSERT INTO Reparacion (id_cliente, id_servicio, id_dispositivo, id_reparacion , costo_total, fecha_entrega ) VALUES ('10536243 ', '032 ', 'CD9012EF ', 'F1N6H8 ', '2800.00 ', '17/05/2023 ');
+INSERT INTO Reparacion (id_cliente, id_servicio, id_dispositivo, id_reparacion , costo_total, fecha_entrega ) VALUES ('76327384 ', '033 ', 'GH3456IJ ', 'S2K6E3 ', '3200.00 ', '26/05/2023 ');
+INSERT INTO Reparacion (id_cliente, id_servicio, id_dispositivo, id_reparacion , costo_total, fecha_entrega ) VALUES ('10539222 ', '034 ', 'KL7890MN ', 'V9T6J1 ', '800.00 ', '6/05/2023 ');
+INSERT INTO Reparacion (id_cliente, id_servicio, id_dispositivo, id_reparacion , costo_total, fecha_entrega ) VALUES ('76304893 ', '035 ', 'OP1234AB ', 'B3P6A9 ', '1700.00 ', '12/05/2023 ');
+INSERT INTO Reparacion (id_cliente, id_servicio, id_dispositivo, id_reparacion , costo_total, fecha_entrega ) VALUES ('10549827 ', '036 ', 'QR5678CD ', 'C8T7J2 ', '1100.00 ', '2/05/2023 ');
+INSERT INTO Reparacion (id_cliente, id_servicio, id_dispositivo, id_reparacion , costo_total, fecha_entrega ) VALUES ('76299538 ', '037 ', 'ST9012EF ', 'U1R6N8 ', '3900.00 ', '19/05/2023 ');
+INSERT INTO Reparacion (id_cliente, id_servicio, id_dispositivo, id_reparacion , costo_total, fecha_entrega ) VALUES ('34538347 ', '038 ', 'UV3456WX ', 'L9J6K1', '2400.00 ', '19/05/2023 ');
+INSERT INTO Reparacion (id_cliente, id_servicio, id_dispositivo, id_reparacion , costo_total, fecha_entrega ) VALUES ('10544327 ', '039 ', 'EF5678GH ', 'E2H6F9 ', '1500.00 ', '20/05/2023 ');
+INSERT INTO Reparacion (id_cliente, id_servicio, id_dispositivo, id_reparacion , costo_total, fecha_entrega ) VALUES ('76314220 ', '040 ', 'IJ9012KL ', 'Q1K6T8 ', '750.00 ', '1/05/2023 ');
+INSERT INTO Reparacion (id_cliente, id_servicio, id_dispositivo, id_reparacion , costo_total, fecha_entrega ) VALUES ('10547768 ', '041 ', 'MN3456OP ', 'G2N6M1 ', '3000.00 ', '10/05/2023 ');
+INSERT INTO Reparacion (id_cliente, id_servicio, id_dispositivo, id_reparacion , costo_total, fecha_entrega ) VALUES ('34539009 ', '042 ', 'QR7890ST ', 'J8K6L2 ', '1800.00 ', '22/05/2023 ');
+INSERT INTO Reparacion (id_cliente, id_servicio, id_dispositivo, id_reparacion , costo_total, fecha_entrega ) VALUES ('76299752 ', '043 ', 'UV1234WX ', 'N1F6T7 ', '1200.00 ', '8/05/2023 ');
+INSERT INTO Reparacion (id_cliente, id_servicio, id_dispositivo, id_reparacion , costo_total, fecha_entrega ) VALUES ('34531288 ', '044 ', 'YZ5678AB ', 'T6J6E2 ', '2500.00 ', '15/05/2023 ');
+INSERT INTO Reparacion (id_cliente, id_servicio, id_dispositivo, id_reparacion , costo_total, fecha_entrega ) VALUES ('10539008 ', '045 ', 'CD9012EF ', 'Y2M6N1 ', '3500.00 ', '11/05/2023 ');
