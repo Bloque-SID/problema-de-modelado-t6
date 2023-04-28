@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5D057B94-DA13-6572-BDEC-C2837C59C983" name="Categoría">
+<createdBy>Gabriel</createdBy>
+<createdTime>2023-04-28 09:51:51 UTC</createdTime>
+<generatorID>F6825F08-244F-12EF-D104-D01B25A3355F</generatorID>
+<ownerDesignName>ReparaTodo</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="codigo" id="481B4871-9540-CEDC-2C6F-C59A4BFB9768">
+<createdBy>Gabriel</createdBy>
+<createdTime>2023-04-28 09:51:51 UTC</createdTime>
+<generatorID>66307DE5-0402-790F-C63C-CB7E1EE4FFA2</generatorID>
+<ownerDesignName>ReparaTodo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>3</dataTypeSize>
+<ownDataTypeParameters>3,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="33034579-B90D-043F-DFD6-0C2C3F309C82">
+<createdBy>Gabriel</createdBy>
+<createdTime>2023-04-28 09:51:51 UTC</createdTime>
+<generatorID>77830F7E-09D1-D59F-7F0F-25C5C08CCAC1</generatorID>
+<ownerDesignName>ReparaTodo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="descripción" id="E012AB82-85CA-1E69-A9A7-227A67B69C86">
+<createdBy>Gabriel</createdBy>
+<createdTime>2023-04-28 09:51:51 UTC</createdTime>
+<generatorID>DB90A864-1B29-FCAD-DC23-E00F297CDC97</generatorID>
+<ownerDesignName>ReparaTodo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1BE3C69C-4588-DAAC-1AC1-BF3955F00254" name="Categoría_PK">
+<createdBy>Gabriel</createdBy>
+<createdTime>2023-04-28 09:51:51 UTC</createdTime>
+<generatorID>B118C467-4A80-F0FC-545F-D10BBD6712BD</generatorID>
+<ownerDesignName>ReparaTodo</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="481B4871-9540-CEDC-2C6F-C59A4BFB9768"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

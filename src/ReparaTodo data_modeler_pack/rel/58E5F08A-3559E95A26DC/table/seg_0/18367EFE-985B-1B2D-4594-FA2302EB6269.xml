@@ -1,0 +1,198 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="18367EFE-985B-1B2D-4594-FA2302EB6269" name="Suministro">
+<createdBy>Gabriel</createdBy>
+<createdTime>2023-04-28 09:51:51 UTC</createdTime>
+<generatorID>4D532B7D-1A9E-6211-B15E-25D186491CD4</generatorID>
+<ownerDesignName>ReparaTodo</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="codigo" id="4B4E2C29-1513-8545-D59D-4BDB57ED4DF6">
+<createdBy>Gabriel</createdBy>
+<createdTime>2023-04-28 09:51:51 UTC</createdTime>
+<generatorID>ADFBA8B0-E8EA-BB3F-1B55-3462F608369B</generatorID>
+<ownerDesignName>ReparaTodo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>999</dataTypeSize>
+<ownDataTypeParameters>999,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="descripcion" id="864C97C6-75C7-D13A-BF87-3DAF4A4F686B">
+<createdBy>Gabriel</createdBy>
+<createdTime>2023-04-28 09:51:51 UTC</createdTime>
+<generatorID>B6CB83E2-357D-6426-B5A9-4B04FEF82901</generatorID>
+<ownerDesignName>ReparaTodo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cantidad_disponible" id="703BE629-1970-E647-AF36-0E376EDFEB8F">
+<createdBy>Gabriel</createdBy>
+<createdTime>2023-04-28 09:51:51 UTC</createdTime>
+<generatorID>DCA658C8-F574-1A2F-39C7-6E51F9A60C26</generatorID>
+<ownerDesignName>ReparaTodo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="15F79272-0D8E-D040-D095-5E4B253FD653">
+<createdBy>Gabriel</createdBy>
+<createdTime>2023-04-28 09:51:51 UTC</createdTime>
+<generatorID>10772853-5684-8A23-4BA7-264AADA65DD2</generatorID>
+<ownerDesignName>ReparaTodo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="estado" id="01BF3AA5-C488-6F61-1102-8018AA4961BB">
+<createdBy>Gabriel</createdBy>
+<createdTime>2023-04-28 09:51:51 UTC</createdTime>
+<generatorID>45206BA0-C75B-E47D-E55D-282ED153C6DB</generatorID>
+<ownerDesignName>ReparaTodo</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Servicio_id_servicio" id="D6AC77B4-6F1F-6B14-8ABC-5D0514060707">
+<createdBy>Gabriel</createdBy>
+<createdTime>2023-04-28 09:51:51 UTC</createdTime>
+<generatorID>3F67EE8E-5A23-FB74-D262-013620A3CFCD</generatorID>
+<ownerDesignName>ReparaTodo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>9</dataTypeSize>
+<ownDataTypeParameters>9,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6A178E6A-B5DB-E876-C4B0-820CB6A05B5C" referredColumn="BC4BE68B-0B3A-A528-F87E-FB09099E49A5"/>
+</associations>
+</Column>
+<Column name="Categoría_codigo" id="D1F86F0B-4F90-C57E-D908-3A3C4BE5C919">
+<createdBy>Gabriel</createdBy>
+<createdTime>2023-04-28 09:51:51 UTC</createdTime>
+<generatorID>3E11BDEE-9A7C-8017-D806-4D70AAD57803</generatorID>
+<ownerDesignName>ReparaTodo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>3</dataTypeSize>
+<ownDataTypeParameters>3,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D42C983F-7C65-1416-31D2-D866358F416E" referredColumn="481B4871-9540-CEDC-2C6F-C59A4BFB9768"/>
+</associations>
+</Column>
+<Column name="Proveedor_nit" id="F9D2F714-350F-7518-7A33-C00C69FC4755">
+<createdBy>Gabriel</createdBy>
+<createdTime>2023-04-28 09:51:51 UTC</createdTime>
+<generatorID>095CCF82-B1B1-9703-93E0-89ECF4243718</generatorID>
+<ownerDesignName>ReparaTodo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>3</dataTypeSize>
+<ownDataTypeParameters>3,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4F82F453-89B5-546D-F3A3-1108F505AAAD" referredColumn="F4B92B90-7CE7-75E2-F1FC-D088565A4498"/>
+</associations>
+</Column>
+<Column name="fecha_compra" id="C5B251F8-D476-2B9A-5968-13241E56A832">
+<createdBy>Gabriel</createdBy>
+<createdTime>2023-04-28 10:39:50 UTC</createdTime>
+<generatorID>474E18C6-2BE5-F795-64F8-F2B364DA1383</generatorID>
+<ownerDesignName>ReparaTodo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isRelationshipColumn>true</isRelationshipColumn>
+<dependOnForeignKeyID>4F82F453-89B5-546D-F3A3-1108F505AAAD</dependOnForeignKeyID>
+<isDependOnFK_AsMandatory>true</isDependOnFK_AsMandatory>
+</Column>
+<Column name="valor_compra" id="36C4D77D-C28C-ADF8-87A2-063C36A12EC7">
+<createdBy>Gabriel</createdBy>
+<createdTime>2023-04-28 10:39:50 UTC</createdTime>
+<generatorID>3B0D7175-73DC-432A-85F9-349D7AA00704</generatorID>
+<ownerDesignName>ReparaTodo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,9,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isRelationshipColumn>true</isRelationshipColumn>
+<dependOnForeignKeyID>4F82F453-89B5-546D-F3A3-1108F505AAAD</dependOnForeignKeyID>
+<isDependOnFK_AsMandatory>true</isDependOnFK_AsMandatory>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BFF7FB11-7866-44AB-F91A-C70D90E8895D" name="Suministro_PK">
+<createdBy>Gabriel</createdBy>
+<createdTime>2023-04-28 09:51:51 UTC</createdTime>
+<generatorID>14D0330C-1321-0A1C-0969-B50A6D2D17EC</generatorID>
+<ownerDesignName>ReparaTodo</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4B4E2C29-1513-8545-D59D-4BDB57ED4DF6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="320B5C6A-E85C-3EA4-660D-A723CD597B6B" name="Suministro_Categoría_FK">
+<createdBy>Gabriel</createdBy>
+<createdTime>2023-04-28 09:51:52 UTC</createdTime>
+<generatorID>46271300-F4B9-25C6-DFAC-DE45A5E9E281</generatorID>
+<ownerDesignName>ReparaTodo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D1F86F0B-4F90-C57E-D908-3A3C4BE5C919"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0179B4D0-3DB9-F64C-F647-196827DA3442" name="Suministro_Proveedor_FK">
+<createdBy>Gabriel</createdBy>
+<createdTime>2023-04-28 09:51:52 UTC</createdTime>
+<generatorID>A7EFEE1A-2E10-C7FD-9E57-69AE63B2D1B4</generatorID>
+<ownerDesignName>ReparaTodo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F9D2F714-350F-7518-7A33-C00C69FC4755"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3408FC7A-730D-66B8-5064-59A7B06E3381" name="Suministro_Servicio_FK">
+<createdBy>Gabriel</createdBy>
+<createdTime>2023-04-28 09:51:52 UTC</createdTime>
+<generatorID>5C4550F6-A859-B884-042B-C40F7CBC6177</generatorID>
+<ownerDesignName>ReparaTodo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D6AC77B4-6F1F-6B14-8ABC-5D0514060707"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

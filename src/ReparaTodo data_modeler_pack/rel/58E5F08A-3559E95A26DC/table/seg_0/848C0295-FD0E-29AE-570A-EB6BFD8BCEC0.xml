@@ -1,0 +1,120 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="848C0295-FD0E-29AE-570A-EB6BFD8BCEC0" name="Cliente">
+<createdBy>Gabriel</createdBy>
+<createdTime>2023-04-28 09:51:51 UTC</createdTime>
+<generatorID>48B59C42-326E-07E6-A340-E35FDFCD9228</generatorID>
+<ownerDesignName>ReparaTodo</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="identificación" id="A14638D5-48A5-5879-B3CC-F8D6F400633B">
+<createdBy>Gabriel</createdBy>
+<createdTime>2023-04-28 09:51:51 UTC</createdTime>
+<generatorID>7F7E45C2-7A1D-F812-9453-E19D36DFD971</generatorID>
+<ownerDesignName>ReparaTodo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre_completo" id="CA7E3600-46AF-F202-9E76-347085795BB6">
+<createdBy>Gabriel</createdBy>
+<createdTime>2023-04-28 09:51:51 UTC</createdTime>
+<generatorID>3D5D59DB-869C-46F6-2732-FCEEB482044C</generatorID>
+<ownerDesignName>ReparaTodo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="email" id="59872ADC-4701-B71B-2D20-316A5976D7C7">
+<createdBy>Gabriel</createdBy>
+<createdTime>2023-04-28 09:51:51 UTC</createdTime>
+<generatorID>D37310AC-6596-6DEE-723B-2133E05DB6C6</generatorID>
+<ownerDesignName>ReparaTodo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="direccion_domicilio" id="B1AB5FE3-521C-BECC-DA8D-0E4FBFE0F0AB">
+<createdBy>Gabriel</createdBy>
+<createdTime>2023-04-28 09:51:51 UTC</createdTime>
+<generatorID>7F5310C8-4C21-DB81-1A51-D250BDDE9743</generatorID>
+<ownerDesignName>ReparaTodo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="telefono" id="83A40FC9-7D3C-A2CB-3A77-3757631E9B6F">
+<createdBy>Gabriel</createdBy>
+<createdTime>2023-04-28 09:51:51 UTC</createdTime>
+<generatorID>5EF34290-B691-8520-B1C2-F932C8434767</generatorID>
+<ownerDesignName>ReparaTodo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Membresía_Membresía_ID" id="0161C73F-33ED-A2C7-8087-EF52DEDE9B6F">
+<createdBy>Gabriel</createdBy>
+<createdTime>2023-04-28 09:51:51 UTC</createdTime>
+<ownerDesignName>ReparaTodo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B787F75E-FA79-8A30-DE1B-EE8ADFB480D2" referredColumn="6519B521-DAAB-BEBF-9FD3-99E975DAA50B"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="727CBEE4-7AE5-4760-B6ED-F8BD664BF169" name="Cliente_PK">
+<createdBy>Gabriel</createdBy>
+<createdTime>2023-04-28 09:51:51 UTC</createdTime>
+<generatorID>60C4B5F7-885C-0AA5-70BF-5E35695378B0</generatorID>
+<ownerDesignName>ReparaTodo</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A14638D5-48A5-5879-B3CC-F8D6F400633B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3DD9C5FC-2DB2-0902-A333-807F3E87F849" name="Cliente__IDX">
+<createdBy>Gabriel</createdBy>
+<createdTime>2023-04-28 09:51:51 UTC</createdTime>
+<ownerDesignName>ReparaTodo</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>E8F4932F-134A-E65F-DCB6-0D57388F9521</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="0161C73F-33ED-A2C7-8087-EF52DEDE9B6F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D464740E-95A9-D93C-F20C-9554E06E6076" name="Cliente_Membresía_FK">
+<createdBy>Gabriel</createdBy>
+<createdTime>2023-04-28 09:51:51 UTC</createdTime>
+<generatorID>E8F4932F-134A-E65F-DCB6-0D57388F9521</generatorID>
+<ownerDesignName>ReparaTodo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0161C73F-33ED-A2C7-8087-EF52DEDE9B6F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

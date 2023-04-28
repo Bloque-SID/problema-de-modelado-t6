@@ -1,0 +1,97 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9146D896-8D1E-9D76-0486-1DE488504EC1" name="Proveedor">
+<createdBy>Gabriel</createdBy>
+<createdTime>2023-04-28 09:51:51 UTC</createdTime>
+<generatorID>36484045-604E-3464-DF9D-49F91F17D8DF</generatorID>
+<ownerDesignName>ReparaTodo</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="nit" id="F4B92B90-7CE7-75E2-F1FC-D088565A4498">
+<createdBy>Gabriel</createdBy>
+<createdTime>2023-04-28 09:51:51 UTC</createdTime>
+<generatorID>1ED1DAB3-B435-BA6A-EC3B-E200BDDD0C28</generatorID>
+<ownerDesignName>ReparaTodo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>3</dataTypeSize>
+<ownDataTypeParameters>3,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ciudad" id="7709FC54-469E-0E0B-A072-61294B05CA53">
+<createdBy>Gabriel</createdBy>
+<createdTime>2023-04-28 09:51:51 UTC</createdTime>
+<generatorID>C9473674-0289-CD79-3290-EC8373BC3CAC</generatorID>
+<ownerDesignName>ReparaTodo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="E0C2661B-693C-F561-CEE7-6273008CE15E">
+<createdBy>Gabriel</createdBy>
+<createdTime>2023-04-28 09:51:51 UTC</createdTime>
+<generatorID>021B603D-15BA-CC56-A542-279960015118</generatorID>
+<ownerDesignName>ReparaTodo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="num_cuenta" id="0ECB94E0-EF8A-80D7-1D97-D0FA5FEF5A5E">
+<createdBy>Gabriel</createdBy>
+<createdTime>2023-04-28 09:51:51 UTC</createdTime>
+<generatorID>03E46354-13C6-3782-E630-F9A2C534FF92</generatorID>
+<ownerDesignName>ReparaTodo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dirección" id="CBC2F49C-C726-6198-3010-6FFEE011322F">
+<createdBy>Gabriel</createdBy>
+<createdTime>2023-04-28 09:51:51 UTC</createdTime>
+<generatorID>9CEB0EC6-8A28-CB41-A6B8-F28CF738F909</generatorID>
+<ownerDesignName>ReparaTodo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="telefono" id="C3984222-377A-64B7-FE3E-4E1C90E9BF6F">
+<createdBy>Gabriel</createdBy>
+<createdTime>2023-04-28 09:51:51 UTC</createdTime>
+<generatorID>FB50B3F6-A6C6-A927-F509-69FC764F04A5</generatorID>
+<ownerDesignName>ReparaTodo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2A2B1463-6761-242A-457A-5C6314E762AE" name="Proveedor_PK">
+<createdBy>Gabriel</createdBy>
+<createdTime>2023-04-28 09:51:51 UTC</createdTime>
+<generatorID>65E25F92-094B-4FB6-0440-830196B23E5C</generatorID>
+<ownerDesignName>ReparaTodo</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F4B92B90-7CE7-75E2-F1FC-D088565A4498"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

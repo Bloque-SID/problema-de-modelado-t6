@@ -1,0 +1,111 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="36484045-604E-3464-DF9D-49F91F17D8DF" name="Proveedor">
+<createdBy>Gabriel</createdBy>
+<createdTime>2023-04-25 22:50:28 UTC</createdTime>
+<ownerDesignName>ReparaTodo</ownerDesignName>
+<engineerTo>
+<item key="58E5F08A-B5F8-C6BB-5DF0-3559E95A26DC" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="nit" id="1ED1DAB3-B435-BA6A-EC3B-E200BDDD0C28">
+<createdBy>Gabriel</createdBy>
+<createdTime>2023-04-25 22:50:35 UTC</createdTime>
+<ownerDesignName>ReparaTodo</ownerDesignName>
+<engineerTo>
+<item key="58E5F08A-B5F8-C6BB-5DF0-3559E95A26DC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>3</dataTypeSize>
+<ownDataTypeParameters>3,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ciudad" id="C9473674-0289-CD79-3290-EC8373BC3CAC">
+<createdBy>Gabriel</createdBy>
+<createdTime>2023-04-25 22:51:00 UTC</createdTime>
+<ownerDesignName>ReparaTodo</ownerDesignName>
+<engineerTo>
+<item key="58E5F08A-B5F8-C6BB-5DF0-3559E95A26DC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre" id="021B603D-15BA-CC56-A542-279960015118">
+<createdBy>Gabriel</createdBy>
+<createdTime>2023-04-25 22:51:42 UTC</createdTime>
+<ownerDesignName>ReparaTodo</ownerDesignName>
+<engineerTo>
+<item key="58E5F08A-B5F8-C6BB-5DF0-3559E95A26DC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="num cuenta" id="03E46354-13C6-3782-E630-F9A2C534FF92">
+<createdBy>Gabriel</createdBy>
+<createdTime>2023-04-25 22:51:58 UTC</createdTime>
+<ownerDesignName>ReparaTodo</ownerDesignName>
+<engineerTo>
+<item key="58E5F08A-B5F8-C6BB-5DF0-3559E95A26DC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dirección" id="9CEB0EC6-8A28-CB41-A6B8-F28CF738F909">
+<createdBy>Gabriel</createdBy>
+<createdTime>2023-04-25 22:52:38 UTC</createdTime>
+<ownerDesignName>ReparaTodo</ownerDesignName>
+<engineerTo>
+<item key="58E5F08A-B5F8-C6BB-5DF0-3559E95A26DC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="telefono" id="FB50B3F6-A6C6-A927-F509-69FC764F04A5">
+<createdBy>Gabriel</createdBy>
+<createdTime>2023-04-25 22:52:58 UTC</createdTime>
+<ownerDesignName>ReparaTodo</ownerDesignName>
+<engineerTo>
+<item key="58E5F08A-B5F8-C6BB-5DF0-3559E95A26DC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="65E25F92-094B-4FB6-0440-830196B23E5C" name="Proveedor PK">
+<createdBy>Gabriel</createdBy>
+<createdTime>2023-04-25 22:50:59 UTC</createdTime>
+<ownerDesignName>ReparaTodo</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="58E5F08A-B5F8-C6BB-5DF0-3559E95A26DC" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>1ED1DAB3-B435-BA6A-EC3B-E200BDDD0C28</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

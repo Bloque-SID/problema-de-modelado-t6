@@ -1,0 +1,78 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="311BC1DE-7A7B-F33B-6B9A-9D25ED8AF7EA" name="Servicio">
+<createdBy>Gabriel</createdBy>
+<createdTime>2023-04-28 09:51:51 UTC</createdTime>
+<generatorID>8DBC4CF9-F110-8669-41ED-25C370CEDABD</generatorID>
+<ownerDesignName>ReparaTodo</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_servicio" id="BC4BE68B-0B3A-A528-F87E-FB09099E49A5">
+<createdBy>Gabriel</createdBy>
+<createdTime>2023-04-28 09:51:51 UTC</createdTime>
+<generatorID>585412CF-D318-099D-CC8A-AAA76A00289E</generatorID>
+<ownerDesignName>ReparaTodo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>9</dataTypeSize>
+<ownDataTypeParameters>9,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="costo" id="704477C2-7A1E-A3BD-6BC9-4A2B7FC199BB">
+<createdBy>Gabriel</createdBy>
+<createdTime>2023-04-28 09:51:51 UTC</createdTime>
+<generatorID>571DE823-AE88-A5A9-7A1C-D06AADB16C73</generatorID>
+<ownerDesignName>ReparaTodo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,9,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Tipo_Servicio_codigo" id="00BCC126-BD3C-ED1D-BCEE-7E26559BC0E4">
+<createdBy>Gabriel</createdBy>
+<createdTime>2023-04-28 09:51:51 UTC</createdTime>
+<generatorID>8CBE7C7E-8684-B6B3-A91B-04F9EC29B364</generatorID>
+<ownerDesignName>ReparaTodo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>3</dataTypeSize>
+<ownDataTypeParameters>3,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3AAD9A67-A69D-B11A-899C-21C1ECD48D4D" referredColumn="CFF6B9D0-1220-AC77-60C1-EB00C64A87E3"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5626A67E-A7FC-9D13-C3C3-25BC49F5AC10" name="Servicio_PK">
+<createdBy>Gabriel</createdBy>
+<createdTime>2023-04-28 09:51:51 UTC</createdTime>
+<generatorID>03950439-A13C-3DFB-18E6-517EBDEE8A58</generatorID>
+<ownerDesignName>ReparaTodo</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BC4BE68B-0B3A-A528-F87E-FB09099E49A5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E5419290-71DF-4317-F1B0-162FABFCE9B6" name="Servicio_Tipo_Servicio_FK">
+<createdBy>Gabriel</createdBy>
+<createdTime>2023-04-28 09:51:52 UTC</createdTime>
+<generatorID>196D4772-1A1A-716E-E13B-1F891D12519C</generatorID>
+<ownerDesignName>ReparaTodo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="00BCC126-BD3C-ED1D-BCEE-7E26559BC0E4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

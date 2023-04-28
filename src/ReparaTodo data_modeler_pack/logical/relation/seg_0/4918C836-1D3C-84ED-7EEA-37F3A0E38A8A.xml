@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="cliente_servicio" directorySegmentName="seg_0" id="4918C836-1D3C-84ED-7EEA-37F3A0E38A8A">
+<createdBy>Gabriel</createdBy>
+<createdTime>2023-04-25 22:30:54 UTC</createdTime>
+<ownerDesignName>ReparaTodo</ownerDesignName>
+<engineerTo>
+<item key="58E5F08A-B5F8-C6BB-5DF0-3559E95A26DC" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>8DBC4CF9-F110-8669-41ED-25C370CEDABD</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>48B59C42-326E-07E6-A340-E35FDFCD9228</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

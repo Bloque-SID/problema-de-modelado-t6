@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Suministro Servicio FK" directorySegmentName="seg_0" id="5C4550F6-A859-B884-042B-C40F7CBC6177">
+<createdBy>Gabriel</createdBy>
+<createdTime>2023-04-25 22:45:49 UTC</createdTime>
+<ownerDesignName>ReparaTodo</ownerDesignName>
+<engineerTo>
+<item key="58E5F08A-B5F8-C6BB-5DF0-3559E95A26DC" value="true"/>
+</engineerTo>
+<sourcePk>03950439-A13C-3DFB-18E6-517EBDEE8A58</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>8DBC4CF9-F110-8669-41ED-25C370CEDABD</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>4D532B7D-1A9E-6211-B15E-25D186491CD4</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

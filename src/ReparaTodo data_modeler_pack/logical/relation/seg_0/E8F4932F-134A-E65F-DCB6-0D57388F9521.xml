@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Cliente Membresía FK" directorySegmentName="seg_0" id="E8F4932F-134A-E65F-DCB6-0D57388F9521">
+<createdBy>Gabriel</createdBy>
+<createdTime>2023-04-25 22:20:33 UTC</createdTime>
+<ownerDesignName>ReparaTodo</ownerDesignName>
+<engineerTo>
+<item key="58E5F08A-B5F8-C6BB-5DF0-3559E95A26DC" value="true"/>
+</engineerTo>
+<useSurrogateKey>true</useSurrogateKey>
+<sourcePk>60C4B5F7-885C-0AA5-70BF-5E35695378B0</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>48B59C42-326E-07E6-A340-E35FDFCD9228</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>85C2BE84-2473-86F9-082E-0352799F72ED</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

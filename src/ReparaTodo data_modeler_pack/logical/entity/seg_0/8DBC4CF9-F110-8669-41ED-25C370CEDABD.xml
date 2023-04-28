@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8DBC4CF9-F110-8669-41ED-25C370CEDABD" name="Servicio">
+<createdBy>Gabriel</createdBy>
+<createdTime>2023-04-25 22:21:28 UTC</createdTime>
+<ownerDesignName>ReparaTodo</ownerDesignName>
+<engineerTo>
+<item key="58E5F08A-B5F8-C6BB-5DF0-3559E95A26DC" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id servicio" id="585412CF-D318-099D-CC8A-AAA76A00289E">
+<createdBy>Gabriel</createdBy>
+<createdTime>2023-04-25 22:21:42 UTC</createdTime>
+<ownerDesignName>ReparaTodo</ownerDesignName>
+<engineerTo>
+<item key="58E5F08A-B5F8-C6BB-5DF0-3559E95A26DC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>9</dataTypeSize>
+<ownDataTypeParameters>9,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="costo" id="571DE823-AE88-A5A9-7A1C-D06AADB16C73">
+<createdBy>Gabriel</createdBy>
+<createdTime>2023-04-25 22:22:35 UTC</createdTime>
+<ownerDesignName>ReparaTodo</ownerDesignName>
+<engineerTo>
+<item key="58E5F08A-B5F8-C6BB-5DF0-3559E95A26DC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,9,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="codigo" id="8CBE7C7E-8684-B6B3-A91B-04F9EC29B364">
+<createdBy>Gabriel</createdBy>
+<createdTime>2023-04-28 09:51:00 UTC</createdTime>
+<generatorID>196D4772-1A1A-716E-E13B-1F891D12519C</generatorID>
+<ownerDesignName>ReparaTodo</ownerDesignName>
+<engineerTo>
+<item key="58E5F08A-B5F8-C6BB-5DF0-3559E95A26DC" value="true"/>
+</engineerTo>
+<referedAttribute>B0170BD4-F1A9-C676-B075-6C91C474DCAB</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>3</dataTypeSize>
+<ownDataTypeParameters>3,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="03950439-A13C-3DFB-18E6-517EBDEE8A58" name="Servicio PK">
+<createdBy>Gabriel</createdBy>
+<createdTime>2023-04-25 22:22:31 UTC</createdTime>
+<ownerDesignName>ReparaTodo</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="58E5F08A-B5F8-C6BB-5DF0-3559E95A26DC" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>585412CF-D318-099D-CC8A-AAA76A00289E</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

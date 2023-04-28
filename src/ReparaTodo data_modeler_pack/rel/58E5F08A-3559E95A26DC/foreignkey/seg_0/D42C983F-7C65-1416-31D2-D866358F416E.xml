@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="D42C983F-7C65-1416-31D2-D866358F416E" containerWithKeyObject="18367EFE-985B-1B2D-4594-FA2302EB6269" localFKIndex="320B5C6A-E85C-3EA4-660D-A723CD597B6B" name="Suministro_Categoría_FK">
+<createdBy>Gabriel</createdBy>
+<createdTime>2023-04-28 09:51:52 UTC</createdTime>
+<generatorID>46271300-F4B9-25C6-DFAC-DE45A5E9E281</generatorID>
+<ownerDesignName>ReparaTodo</ownerDesignName>
+<referredTableLongName>Categoría</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>5D057B94-DA13-6572-BDEC-C2837C59C983</referredTableID>
+<keyObject>1BE3C69C-4588-DAAC-1AC1-BF3955F00254</keyObject>
+<referredKeyID>1BE3C69C-4588-DAAC-1AC1-BF3955F00254</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>codigo</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

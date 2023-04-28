@@ -1,0 +1,71 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="servicio_dispositivo" directorySegmentName="seg_0" id="F96ED7AA-A4B9-69D3-C48D-0B9E43F65585">
+<createdBy>Gabriel</createdBy>
+<createdTime>2023-04-28 09:25:47 UTC</createdTime>
+<ownerDesignName>ReparaTodo</ownerDesignName>
+<engineerTo>
+<item key="58E5F08A-B5F8-C6BB-5DF0-3559E95A26DC" value="true"/>
+</engineerTo>
+<sourcePk>03950439-A13C-3DFB-18E6-517EBDEE8A58</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>8DBC4CF9-F110-8669-41ED-25C370CEDABD</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>1CDBBA5F-819B-1CA5-FB14-B1F36400527B</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<attribute name="Servicio id servicio" id="552B9AEE-C25A-4F2E-A14A-58F8BBF87341">
+<createdBy>Gabriel</createdBy>
+<createdTime>2023-04-28 09:37:44 UTC</createdTime>
+<ownerDesignName>ReparaTodo</ownerDesignName>
+<engineerTo>
+<item key="58E5F08A-B5F8-C6BB-5DF0-3559E95A26DC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</attribute>
+<attribute name="Cliente identificación" id="FD75B8C6-AC75-BE1E-7BEF-F439F498B806">
+<createdBy>Gabriel</createdBy>
+<createdTime>2023-04-28 09:37:44 UTC</createdTime>
+<ownerDesignName>ReparaTodo</ownerDesignName>
+<engineerTo>
+<item key="58E5F08A-B5F8-C6BB-5DF0-3559E95A26DC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</attribute>
+<attribute name="costo" id="334A25FB-4DFC-40F5-AF60-7A2F085F7A0B">
+<createdBy>Gabriel</createdBy>
+<createdTime>2023-04-28 09:41:14 UTC</createdTime>
+<ownerDesignName>ReparaTodo</ownerDesignName>
+<engineerTo>
+<item key="58E5F08A-B5F8-C6BB-5DF0-3559E95A26DC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,9,2</ownDataTypeParameters>
+</attribute>
+<attribute name="fecha" id="64C3D81C-DA49-30C4-CAF0-D92B4890396C">
+<createdBy>Gabriel</createdBy>
+<createdTime>2023-04-28 09:42:42 UTC</createdTime>
+<ownerDesignName>ReparaTodo</ownerDesignName>
+<engineerTo>
+<item key="58E5F08A-B5F8-C6BB-5DF0-3559E95A26DC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</attribute>
+</attributes>
+</Relation>
