@@ -5,7 +5,7 @@ CREATE TABLE Tipo (
 );
 
 
--- Inserts
+-- Inserts tabla Tipo
 INSERT INTO Tipo (codigo, nombre) VALUES ('000', 'Reparación de pantalla');
 INSERT INTO Tipo (codigo, nombre) VALUES ('001', 'Reparación de batería');
 INSERT INTO Tipo (codigo, nombre) VALUES ('002', 'Reparación de conector de carga');
@@ -66,7 +66,7 @@ CREATE TABLE Categoria (
 );
 
 
--- Inserts
+-- Inserts tabla Categoria
 INSERT INTO Categoria (codigo, nombre, descripcion) VALUES ('000', 'Pantallas', 'Suministros para reparación de pantallas de dispositivos móviles');
 INSERT INTO Categoria (codigo, nombre, descripcion) VALUES ('001', 'Baterías', 'Suministros para reparación y reemplazo de baterías de dispositivos móviles');
 INSERT INTO Categoria (codigo, nombre, descripcion) VALUES ('002', 'Herramientas', 'Herramientas para la reparación de dispositivos móviles');
@@ -189,7 +189,7 @@ CREATE TABLE Servicio (
 );
 
 
--- Inserts
+-- Inserts tabla Servicio
 INSERT INTO Servicio (id, costo, cod_tipo) VALUES ('001', 80000, '001');
 INSERT INTO Servicio (id, costo, cod_tipo) VALUES ('002', 65000, '002');
 INSERT INTO Servicio (id, costo, cod_tipo) VALUES ('003', 120000, '003');
@@ -256,7 +256,7 @@ CREATE TABLE Suministro (
 );
 
 
--- Inserts (Hacer que tengan coherencia)
+-- Inserts tabla Suministro
 INSERT INTO Suministro (codigo, descripcion, cantidad, nombre, estado, id_servicio, nit_prov, cod_categoria) VALUES ('000', 'Cable USB tipo C de alta velocidad y resistencia', 120, 'Cable USB tipo C de 2 metros', 'disponible', '002', '8001357442', '009');
 INSERT INTO Suministro (codigo, descripcion, cantidad, nombre, estado, id_servicio, nit_prov, cod_categoria) VALUES ('001', 'Adaptador para corriente de 5V y 2A', 60, 'Adaptador para corriente universal', 'disponible', '010', '34567890', '002');
 INSERT INTO Suministro (codigo, descripcion, cantidad, nombre, estado, id_servicio, nit_prov, cod_categoria) VALUES ('002', 'Tarjeta de memoria Micro SD de 64 GB', 25, 'Tarjeta de memoria Micro SDXC', 'disponible', '006', '12345678', '006');
@@ -318,7 +318,7 @@ CREATE TABLE Cliente (
   telefono VARCHAR(10)
 );
 
--- Corregir los que fallen
+-- Inserts tabla cliente
 INSERT INTO Cliente (identificacion, nombre_completo, email, direccion_domicilio, telefono ) VALUES ('10547808', 'Alejandro García', 'agarcia@gmail.com', 'Calle 10 # 20-30, Bogotá', '3101234567 ');
 INSERT INTO Cliente (identificacion, nombre_completo, email, direccion_domicilio, telefono ) VALUES ('34532270', 'Ana López', 'alopez@hotmail.com', 'Carrera 25 # 40-50, Medellín', '3102345678 ');
 INSERT INTO Cliente (identificacion, nombre_completo, email, direccion_domicilio, telefono ) VALUES ('76323459', 'Andrés Martínez', 'amartinez@gmail.com', 'Avenida 7 # 15-25, Barranquilla', '3103456789 ');
@@ -375,6 +375,7 @@ CREATE TABLE Membresia (
   FOREIGN KEY (id_cliente) REFERENCES Cliente(identificacion)
 );
 
+-- Inserts tabla Membresia
 INSERT INTO Membresia (id_cliente, id_membresia, tipo) VALUES ('10547808', '821 ', 'Oro ');
 INSERT INTO Membresia (id_cliente, id_membresia, tipo) VALUES ('34532270', '513 ', 'Plata ');
 INSERT INTO Membresia (id_cliente, id_membresia, tipo) VALUES ('76323459', '722 ', 'Platino ');
@@ -430,6 +431,7 @@ CREATE TABLE Dispositivo (
     FOREIGN KEY (id_cliente) REFERENCES Cliente(identificacion)
 );
 
+-- Inserts tabla Dispositivo
 INSERT INTO Dispositivo (id_cliente, marca, modelo, averias, serial ) VALUES ('10547808', 'LG', 'Velvet 5G', 'Pantalla en negro', '0000000 ');
 INSERT INTO Dispositivo (id_cliente, marca, modelo, averias, serial ) VALUES ('34532270', 'Motorola', 'Moto G9 Plus', 'No se carga la batería', '0000001 ');
 INSERT INTO Dispositivo (id_cliente, marca, modelo, averias, serial ) VALUES ('76323459', 'Sony', 'Xperia L1', 'Problemas de almacenamiento interno', '0000002 ');
@@ -486,6 +488,7 @@ CREATE TABLE Cliente_Servicio (
     FOREIGN KEY (id_servicio) REFERENCES Servicio(id)
 );
 
+-- Inserts tabla Cliente_Servicio
 INSERT INTO Cliente_Servicio (id_cliente , id_servicio) VALUES ('10547808 ', '001 ');
 INSERT INTO Cliente_Servicio (id_cliente , id_servicio) VALUES ('34532270 ', '002 ');
 INSERT INTO Cliente_Servicio (id_cliente , id_servicio) VALUES ('76323459 ', '003 ');
@@ -533,7 +536,7 @@ INSERT INTO Cliente_Servicio (id_cliente , id_servicio) VALUES ('34531288 ', '04
 INSERT INTO Cliente_Servicio (id_cliente , id_servicio) VALUES ('10539008 ', '045 ');
 
 
-
+-- Crear tabla Reparacion
 CREATE TABLE Reparacion (
     id_cliente CHAR(10),
     id_servicio CHAR(3),
@@ -546,6 +549,7 @@ CREATE TABLE Reparacion (
     FOREIGN KEY (id_dispositivo, id_cliente) REFERENCES Dispositivo(serial, id_cliente)
 );
 
+-- Inserts tabla Reparacion
 INSERT INTO Reparacion (id_cliente, id_servicio, id_dispositivo, id_reparacion , costo_total, fecha_entrega ) VALUES ('10547808 ', '001 ', 'EF5678GD ', 'NDJ1H8 ', '1500.00 ', '20/05/2023 ');
 INSERT INTO Reparacion (id_cliente, id_servicio, id_dispositivo, id_reparacion , costo_total, fecha_entrega ) VALUES ('34532270 ', '002 ', 'EF5678GH ', '8GK9EF ', '750.00 ', '1/05/2023 ');
 INSERT INTO Reparacion (id_cliente, id_servicio, id_dispositivo, id_reparacion , costo_total, fecha_entrega ) VALUES ('76323459 ', '003 ', 'IJ9012KL ', 'X9MNP4 ', '3000.00 ', '10/05/2023 ');
